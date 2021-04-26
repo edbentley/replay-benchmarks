@@ -35,6 +35,7 @@ addSuite("Simple texture", New.runSimple, Prev.runSimple);
 addSuite("Nested Sprite", New.runNested, Prev.runNested);
 addSuite("Pure Sprite", New.runPure, Prev.runPure);
 addSuite("Moving Sprite", New.runMovingSprite, Prev.runMovingSprite);
+addSuite("Context Sprite", New.runContextSprite, Prev.runContextSprite);
 addSuite("Sprite with input", New.runInputSprite, Prev.runInputSprite);
 addSuite("Sprites removed and created", New.runRemovedSprites, Prev.runRemovedSprites);
 addSuite("1000 textures", New.run1000Textures, Prev.run1000Textures);
